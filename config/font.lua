@@ -11,7 +11,7 @@ Config.anti_alias_custom_block_glyphs = true
 
 Config.font = wt.font_with_fallback {
   {
-    family = "FiraCode Nerd Font",
+    family = "Hack Nerd Font Mono",
     weight = "Regular",
     harfbuzz_features = {
       -- "cv01", ---styles: a
@@ -53,7 +53,7 @@ Config.font = wt.font_with_fallback {
 }
 
 if fs.platform().is_win then
-  Config.font_size = 9.5
+  Config.font_size = 10.5
 else
   Config.font_size = 10.5
 end
@@ -71,7 +71,7 @@ Config.font_rules = {
     italic = true,
     font = wt.font_with_fallback {
       {
-        family = "Monaspace Radon Var",
+        family = "Hack Nerd Font Mono",
         style = "Normal",
         weight = "Regular",
         stretch = "Normal",
@@ -85,7 +85,7 @@ Config.font_rules = {
     italic = true,
     font = wt.font_with_fallback {
       {
-        family = "Monaspace Krypton Var",
+        family = "Hack Nerd Font Mono",
         style = "Italic",
         weight = "Black",
         harfbuzz_features = monaspace_features,
